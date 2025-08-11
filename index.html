@@ -3,76 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celes Chai - Personal Website</title>
-    <meta name="description" content="Celes Chai's personal website showcasing work, research, and professional experience">
+    
+    <!-- Primary Meta Tags -->
+    <title>Celes Chai - Personal Website | Researcher • Developer • Innovator</title>
+    <meta name="title" content="Celes Chai - Personal Website | Researcher • Developer • Innovator">
+    <meta name="description" content="Celes Chai's comprehensive personal website showcasing research work, professional experience, publications, and expertise in machine learning, data science, and software engineering.">
+    <meta name="keywords" content="Celes Chai, researcher, developer, machine learning, data science, software engineering, publications, portfolio, resume, academic">
+    <meta name="author" content="Celes Chai">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://celeschai.github.io/">
+    <meta property="og:title" content="Celes Chai - Personal Website | Researcher • Developer • Innovator">
+    <meta property="og:description" content="Celes Chai's comprehensive personal website showcasing research work, professional experience, publications, and expertise in machine learning, data science, and software engineering.">
+    <meta property="og:image" content="https://celeschai.github.io/images/profile.jpg">
+    <meta property="og:site_name" content="Celes Chai Personal Website">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://celeschai.github.io/">
+    <meta property="twitter:title" content="Celes Chai - Personal Website | Researcher • Developer • Innovator">
+    <meta property="twitter:description" content="Celes Chai's comprehensive personal website showcasing research work, professional experience, publications, and expertise in machine learning, data science, and software engineering.">
+    <meta property="twitter:image" content="https://celeschai.github.io/images/profile.jpg">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="theme-color" content="#667eea">
+    <meta name="msapplication-TileColor" content="#667eea">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://celeschai.github.io/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Structured Data for AI/LLM Consumption -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Celes Chai",
+        "jobTitle": "Senior Research Scientist",
+        "description": "Researcher, Developer, and Innovator with expertise in machine learning, data science, and software engineering",
+        "url": "https://celeschai.github.io",
+        "sameAs": [
+            "https://github.com/celeschai",
+            "https://linkedin.com/in/celeschai"
+        ],
+        "knowsAbout": [
+            "Machine Learning",
+            "Data Science", 
+            "Software Engineering",
+            "Research",
+            "Python",
+            "JavaScript",
+            "Data Analysis"
+        ],
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "University of Technology"
+        },
+        "worksFor": {
+            "@type": "Organization", 
+            "name": "Tech Research Institute"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Senior Research Scientist",
+            "occupationLocation": {
+                "@type": "Place",
+                "name": "San Francisco, CA"
+            }
+        }
+    }
+    </script>
+    
+    <!-- Additional Structured Data for Publications -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Research Publications by Celes Chai",
+        "description": "Academic publications and research papers by Celes Chai",
+        "itemListElement": [
+            {
+                "@type": "ScholarlyArticle",
+                "position": 1,
+                "name": "Advanced Machine Learning Applications",
+                "author": {
+                    "@type": "Person",
+                    "name": "Celes Chai"
+                },
+                "datePublished": "2024",
+                "description": "This paper explores the latest developments in machine learning algorithms and their practical applications in real-world scenarios."
+            },
+            {
+                "@type": "ScholarlyArticle", 
+                "position": 2,
+                "name": "Data Science in Healthcare",
+                "author": {
+                    "@type": "Person",
+                    "name": "Celes Chai"
+                },
+                "datePublished": "2023",
+                "description": "An investigation into how data science techniques can improve healthcare outcomes and patient care through predictive analytics."
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "position": 3, 
+                "name": "Innovation in Software Engineering",
+                "author": {
+                    "@type": "Person",
+                    "name": "Celes Chai"
+                },
+                "datePublished": "2022",
+                "description": "A comprehensive study of modern software engineering practices and their impact on development efficiency and product quality."
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#home" class="skip-link">Skip to main content</a>
+    
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home">Celes Chai</a>
+                <a href="#home" aria-label="Go to homepage">Celes Chai</a>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+            <ul class="nav-menu" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#home" class="nav-link" role="menuitem" aria-current="page">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" role="menuitem">About</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#work" class="nav-link">Work</a>
+                <li class="nav-item" role="none">
+                    <a href="#work" class="nav-link" role="menuitem">Work</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#research" class="nav-link">Research</a>
+                <li class="nav-item" role="none">
+                    <a href="#research" class="nav-link" role="menuitem">Research</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#resume" class="nav-link">Resume</a>
+                <li class="nav-item" role="none">
+                    <a href="#resume" class="nav-link" role="menuitem">Resume</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">Contact</a>
                 </li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <main id="home" class="hero" role="main">
         <div class="hero-container">
-            <div class="hero-content">
+            <header class="hero-content">
                 <h1 class="hero-title">Hi, I'm Celes Chai</h1>
-                <p class="hero-subtitle">Researcher • Developer • Innovator</p>
+                <p class="hero-subtitle" role="doc-subtitle">Researcher • Developer • Innovator</p>
                 <p class="hero-description">
                     Welcome to my personal website where I showcase my work, research, and professional journey. 
                     I'm passionate about creating impactful solutions and advancing knowledge in my field.
                 </p>
-                <div class="hero-buttons">
-                    <a href="#work" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <div class="hero-buttons" role="group" aria-label="Call to action buttons">
+                    <a href="#work" class="btn btn-primary" aria-label="View my portfolio and work projects">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" aria-label="Contact me for opportunities or collaboration">Get In Touch</a>
                 </div>
-            </div>
-            <div class="hero-image">
-                <div class="profile-placeholder">
-                    <i class="fas fa-user-circle"></i>
+            </header>
+            <aside class="hero-image" aria-label="Profile image">
+                <div class="profile-placeholder" role="img" aria-label="Profile placeholder image">
+                    <i class="fas fa-user-circle" aria-hidden="true"></i>
                 </div>
-            </div>
+            </aside>
         </div>
-    </section>
+    </main>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about" aria-labelledby="about-title">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 id="about-title" class="section-title">About Me</h2>
             <div class="about-content">
-                <div class="about-text">
+                <article class="about-text">
                     <p>
                         I am a dedicated professional with expertise in research and development. 
                         My work focuses on creating innovative solutions and contributing to the advancement 
@@ -82,98 +212,98 @@
                         With a strong academic background and practical experience, I enjoy tackling 
                         complex challenges and collaborating with others to achieve meaningful results.
                     </p>
-                    <div class="skills">
-                        <h3>Skills & Expertise</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Research</span>
-                            <span class="skill-tag">Data Analysis</span>
-                            <span class="skill-tag">Programming</span>
-                            <span class="skill-tag">Problem Solving</span>
-                            <span class="skill-tag">Collaboration</span>
+                    <section class="skills" aria-labelledby="skills-title">
+                        <h3 id="skills-title">Skills & Expertise</h3>
+                        <div class="skill-tags" role="list" aria-label="Professional skills and expertise">
+                            <span class="skill-tag" role="listitem">Research</span>
+                            <span class="skill-tag" role="listitem">Data Analysis</span>
+                            <span class="skill-tag" role="listitem">Programming</span>
+                            <span class="skill-tag" role="listitem">Problem Solving</span>
+                            <span class="skill-tag" role="listitem">Collaboration</span>
                         </div>
-                    </div>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
+                    </section>
+                </article>
+                <aside class="about-stats" aria-label="Professional statistics">
+                    <div class="stat-item" role="region" aria-label="Years of experience">
                         <h3>5+</h3>
                         <p>Years Experience</p>
                     </div>
-                    <div class="stat-item">
+                    <div class="stat-item" role="region" aria-label="Projects completed">
                         <h3>10+</h3>
                         <p>Projects Completed</p>
                     </div>
-                    <div class="stat-item">
+                    <div class="stat-item" role="region" aria-label="Research papers published">
                         <h3>3+</h3>
                         <p>Research Papers</p>
                     </div>
-                </div>
+                </aside>
             </div>
         </div>
     </section>
 
     <!-- Work Section -->
-    <section id="work" class="work">
+    <section id="work" class="work" aria-labelledby="work-title">
         <div class="container">
-            <h2 class="section-title">Featured Work</h2>
-            <div class="work-grid">
-                <div class="work-card">
-                    <div class="work-image">
+            <h2 id="work-title" class="section-title">Featured Work</h2>
+            <div class="work-grid" role="list" aria-label="Portfolio of featured work projects">
+                <article class="work-card" role="listitem">
+                    <div class="work-image" aria-hidden="true">
                         <i class="fas fa-project-diagram"></i>
                     </div>
                     <div class="work-content">
                         <h3>Project Alpha</h3>
                         <p>A comprehensive research project focusing on innovative solutions in data science and machine learning.</p>
-                        <div class="work-tags">
-                            <span class="work-tag">Python</span>
-                            <span class="work-tag">ML</span>
-                            <span class="work-tag">Research</span>
+                        <div class="work-tags" role="list" aria-label="Technologies used">
+                            <span class="work-tag" role="listitem">Python</span>
+                            <span class="work-tag" role="listitem">ML</span>
+                            <span class="work-tag" role="listitem">Research</span>
                         </div>
-                        <a href="#" class="work-link">Learn More →</a>
+                        <a href="#" class="work-link" aria-label="Learn more about Project Alpha">Learn More →</a>
                     </div>
-                </div>
+                </article>
                 
-                <div class="work-card">
-                    <div class="work-image">
+                <article class="work-card" role="listitem">
+                    <div class="work-image" aria-hidden="true">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="work-content">
                         <h3>Data Analytics Platform</h3>
                         <p>Developed a scalable platform for processing and analyzing large datasets with real-time insights.</p>
-                        <div class="work-tags">
-                            <span class="work-tag">JavaScript</span>
-                            <span class="work-tag">Node.js</span>
-                            <span class="work-tag">Analytics</span>
+                        <div class="work-tags" role="list" aria-label="Technologies used">
+                            <span class="work-tag" role="listitem">JavaScript</span>
+                            <span class="work-tag" role="listitem">Node.js</span>
+                            <span class="work-tag" role="listitem">Analytics</span>
                         </div>
-                        <a href="#" class="work-link">Learn More →</a>
+                        <a href="#" class="work-link" aria-label="Learn more about Data Analytics Platform">Learn More →</a>
                     </div>
-                </div>
+                </article>
                 
-                <div class="work-card">
-                    <div class="work-image">
+                <article class="work-card" role="listitem">
+                    <div class="work-image" aria-hidden="true">
                         <i class="fas fa-microscope"></i>
                     </div>
                     <div class="work-content">
                         <h3>Research Study</h3>
                         <p>Conducted extensive research on emerging technologies and their applications in modern systems.</p>
-                        <div class="work-tags">
-                            <span class="work-tag">Research</span>
-                            <span class="work-tag">Analysis</span>
-                            <span class="work-tag">Publication</span>
+                        <div class="work-tags" role="list" aria-label="Technologies used">
+                            <span class="work-tag" role="listitem">Research</span>
+                            <span class="work-tag" role="listitem">Analysis</span>
+                            <span class="work-tag" role="listitem">Publication</span>
                         </div>
-                        <a href="#" class="work-link">Learn More →</a>
+                        <a href="#" class="work-link" aria-label="Learn more about Research Study">Learn More →</a>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
     <!-- Research Section -->
-    <section id="research" class="research">
+    <section id="research" class="research" aria-labelledby="research-title">
         <div class="container">
-            <h2 class="section-title">Research & Publications</h2>
-            <div class="research-content">
-                <div class="research-item">
-                    <div class="research-year">2024</div>
+            <h2 id="research-title" class="section-title">Research & Publications</h2>
+            <div class="research-content" role="list" aria-label="Research publications and academic papers">
+                <article class="research-item" role="listitem">
+                    <time class="research-year" datetime="2024">2024</time>
                     <div class="research-details">
                         <h3>Advanced Machine Learning Applications</h3>
                         <p class="research-authors">Celes Chai, et al.</p>
@@ -181,15 +311,15 @@
                             This paper explores the latest developments in machine learning algorithms and their 
                             practical applications in real-world scenarios.
                         </p>
-                        <div class="research-links">
-                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
-                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+                        <div class="research-links" role="list" aria-label="Publication links">
+                            <a href="#" class="research-link" aria-label="Download PDF of Advanced Machine Learning Applications"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF</a>
+                            <a href="#" class="research-link" aria-label="View DOI for Advanced Machine Learning Applications"><i class="fas fa-external-link-alt" aria-hidden="true"></i> DOI</a>
                         </div>
                     </div>
-                </div>
+                </article>
                 
-                <div class="research-item">
-                    <div class="research-year">2023</div>
+                <article class="research-item" role="listitem">
+                    <time class="research-year" datetime="2023">2023</time>
                     <div class="research-details">
                         <h3>Data Science in Healthcare</h3>
                         <p class="research-authors">Celes Chai, et al.</p>
@@ -197,15 +327,15 @@
                             An investigation into how data science techniques can improve healthcare outcomes 
                             and patient care through predictive analytics.
                         </p>
-                        <div class="research-links">
-                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
-                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+                        <div class="research-links" role="list" aria-label="Publication links">
+                            <a href="#" class="research-link" aria-label="Download PDF of Data Science in Healthcare"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF</a>
+                            <a href="#" class="research-link" aria-label="View DOI for Data Science in Healthcare"><i class="fas fa-external-link-alt" aria-hidden="true"></i> DOI</a>
                         </div>
                     </div>
-                </div>
+                </article>
                 
-                <div class="research-item">
-                    <div class="research-year">2022</div>
+                <article class="research-item" role="listitem">
+                    <time class="research-year" datetime="2022">2022</time>
                     <div class="research-details">
                         <h3>Innovation in Software Engineering</h3>
                         <p class="research-authors">Celes Chai, et al.</p>
@@ -213,188 +343,190 @@
                             A comprehensive study of modern software engineering practices and their impact 
                             on development efficiency and product quality.
                         </p>
-                        <div class="research-links">
-                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
-                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+                        <div class="research-links" role="list" aria-label="Publication links">
+                            <a href="#" class="research-link" aria-label="Download PDF of Innovation in Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF</a>
+                            <a href="#" class="research-link" aria-label="View DOI for Innovation in Software Engineering"><i class="fas fa-external-link-alt" aria-hidden="true"></i> DOI</a>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
     <!-- Resume Section -->
-    <section id="resume" class="resume">
+    <section id="resume" class="resume" aria-labelledby="resume-title">
         <div class="container">
-            <h2 class="section-title">Resume</h2>
+            <h2 id="resume-title" class="section-title">Resume</h2>
             <div class="resume-content">
-                <div class="resume-section">
-                    <h3>Experience</h3>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-date">2023 - Present</div>
+                <section class="resume-section" aria-labelledby="experience-title">
+                    <h3 id="experience-title">Experience</h3>
+                    <div class="timeline" role="list" aria-label="Professional work experience timeline">
+                        <article class="timeline-item" role="listitem">
+                            <time class="timeline-date" datetime="2023">2023 - Present</time>
                             <div class="timeline-content">
                                 <h4>Senior Research Scientist</h4>
                                 <p class="timeline-company">Tech Research Institute</p>
-                                <ul>
+                                <ul role="list">
                                     <li>Lead research projects in machine learning and data science</li>
                                     <li>Published 3 peer-reviewed papers in top-tier journals</li>
                                     <li>Mentored junior researchers and graduate students</li>
                                 </ul>
                             </div>
-                        </div>
+                        </article>
                         
-                        <div class="timeline-item">
-                            <div class="timeline-date">2021 - 2023</div>
+                        <article class="timeline-item" role="listitem">
+                            <time class="timeline-date" datetime="2021">2021 - 2023</time>
                             <div class="timeline-content">
                                 <h4>Data Scientist</h4>
                                 <p class="timeline-company">Innovation Corp</p>
-                                <ul>
+                                <ul role="list">
                                     <li>Developed predictive models for business intelligence</li>
                                     <li>Improved data processing efficiency by 40%</li>
                                     <li>Collaborated with cross-functional teams on data-driven solutions</li>
                                 </ul>
                             </div>
-                        </div>
+                        </article>
                         
-                        <div class="timeline-item">
-                            <div class="timeline-date">2019 - 2021</div>
+                        <article class="timeline-item" role="listitem">
+                            <time class="timeline-date" datetime="2019">2019 - 2021</time>
                             <div class="timeline-content">
                                 <h4>Research Assistant</h4>
                                 <p class="timeline-company">University Research Lab</p>
-                                <ul>
+                                <ul role="list">
                                     <li>Assisted in research on artificial intelligence applications</li>
                                     <li>Collected and analyzed experimental data</li>
                                     <li>Contributed to research publications and presentations</li>
                                 </ul>
                             </div>
-                        </div>
+                        </article>
                     </div>
-                </div>
+                </section>
                 
-                <div class="resume-section">
-                    <h3>Education</h3>
+                <section class="resume-section" aria-labelledby="education-title">
+                    <h3 id="education-title">Education</h3>
                     <div class="education-item">
                         <h4>Master of Science in Computer Science</h4>
                         <p class="education-school">University of Technology</p>
-                        <p class="education-year">2019 - 2021</p>
+                        <time class="education-year" datetime="2019-2021">2019 - 2021</time>
                         <p>Specialized in machine learning and data science with honors</p>
                     </div>
                     
                     <div class="education-item">
                         <h4>Bachelor of Science in Mathematics</h4>
                         <p class="education-school">State University</p>
-                        <p class="education-year">2015 - 2019</p>
+                        <time class="education-year" datetime="2015-2019">2015 - 2019</time>
                         <p>Major in applied mathematics with minor in computer science</p>
                     </div>
-                </div>
+                </section>
                 
-                <div class="resume-section">
-                    <h3>Skills</h3>
+                <section class="resume-section" aria-labelledby="skills-title-resume">
+                    <h3 id="skills-title-resume">Skills</h3>
                     <div class="skills-grid">
-                        <div class="skill-category">
-                            <h4>Programming Languages</h4>
-                            <div class="skill-list">
-                                <span class="skill-item">Python</span>
-                                <span class="skill-item">JavaScript</span>
-                                <span class="skill-item">R</span>
-                                <span class="skill-item">SQL</span>
+                        <div class="skill-category" aria-labelledby="programming-title">
+                            <h4 id="programming-title">Programming Languages</h4>
+                            <div class="skill-list" role="list" aria-labelledby="programming-title">
+                                <span class="skill-item" role="listitem">Python</span>
+                                <span class="skill-item" role="listitem">JavaScript</span>
+                                <span class="skill-item" role="listitem">R</span>
+                                <span class="skill-item" role="listitem">SQL</span>
                             </div>
                         </div>
                         
-                        <div class="skill-category">
-                            <h4>Technologies</h4>
-                            <div class="skill-list">
-                                <span class="skill-item">TensorFlow</span>
-                                <span class="skill-item">PyTorch</span>
-                                <span class="skill-item">Docker</span>
-                                <span class="skill-item">AWS</span>
+                        <div class="skill-category" aria-labelledby="technologies-title">
+                            <h4 id="technologies-title">Technologies</h4>
+                            <div class="skill-list" role="list" aria-labelledby="technologies-title">
+                                <span class="skill-item" role="listitem">TensorFlow</span>
+                                <span class="skill-item" role="listitem">PyTorch</span>
+                                <span class="skill-item" role="listitem">Docker</span>
+                                <span class="skill-item" role="listitem">AWS</span>
                             </div>
                         </div>
                         
-                        <div class="skill-category">
-                            <h4>Tools</h4>
-                            <div class="skill-list">
-                                <span class="skill-item">Git</span>
-                                <span class="skill-item">Jupyter</span>
-                                <span class="skill-item">Tableau</span>
-                                <span class="skill-item">LaTeX</span>
+                        <div class="skill-category" aria-labelledby="tools-title">
+                            <h4 id="tools-title">Tools</h4>
+                            <div class="skill-list" role="list" aria-labelledby="tools-title">
+                                <span class="skill-item" role="listitem">Git</span>
+                                <span class="skill-item" role="listitem">Jupyter</span>
+                                <span class="skill-item" role="listitem">Tableau</span>
+                                <span class="skill-item" role="listitem">LaTeX</span>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" aria-labelledby="contact-title">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 id="contact-title" class="section-title">Get In Touch</h2>
             <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
+                <aside class="contact-info" aria-labelledby="connect-title">
+                    <h3 id="connect-title">Let's Connect</h3>
                     <p>I'm always interested in new opportunities, collaborations, and interesting conversations. 
                        Feel free to reach out!</p>
                     
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <i class="fas fa-envelope"></i>
+                    <div class="contact-methods" role="list" aria-label="Contact methods and information">
+                        <div class="contact-method" role="listitem">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
                             <div>
                                 <h4>Email</h4>
-                                <p>celes.chai@example.com</p>
+                                <p><a href="mailto:celes.chai@example.com" aria-label="Send email to celes.chai@example.com">celes.chai@example.com</a></p>
                             </div>
                         </div>
                         
-                        <div class="contact-method">
-                            <i class="fab fa-linkedin"></i>
+                        <div class="contact-method" role="listitem">
+                            <i class="fas fa-linkedin" aria-hidden="true"></i>
                             <div>
                                 <h4>LinkedIn</h4>
-                                <p>linkedin.com/in/celeschai</p>
+                                <p><a href="https://linkedin.com/in/celeschai" target="_blank" rel="noopener noreferrer" aria-label="Visit Celes Chai's LinkedIn profile">linkedin.com/in/celeschai</a></p>
                             </div>
                         </div>
                         
-                        <div class="contact-method">
-                            <i class="fab fa-github"></i>
+                        <div class="contact-method" role="listitem">
+                            <i class="fas fa-github" aria-hidden="true"></i>
                             <div>
                                 <h4>GitHub</h4>
-                                <p>github.com/celeschai</p>
+                                <p><a href="https://github.com/celeschai" target="_blank" rel="noopener noreferrer" aria-label="Visit Celes Chai's GitHub profile">github.com/celeschai</a></p>
                             </div>
                         </div>
                         
-                        <div class="contact-method">
-                            <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-method" role="listitem">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                             <div>
                                 <h4>Location</h4>
                                 <p>San Francisco, CA</p>
                             </div>
                         </div>
                     </div>
-                </div>
+                </aside>
                 
-                <div class="contact-form">
-                    <form id="contactForm">
+                <div class="contact-form" aria-labelledby="form-title">
+                    <h3 id="form-title" class="visually-hidden">Contact Form</h3>
+                    <form id="contactForm" role="form" aria-labelledby="form-title">
                         <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <label for="name">Name <span class="required" aria-label="required">*</span></label>
+                            <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
                         </div>
                         
                         <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email <span class="required" aria-label="required">*</span></label>
+                            <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
                         </div>
                         
                         <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject <span class="required" aria-label="required">*</span></label>
+                            <input type="text" id="subject" name="subject" required aria-required="true" autocomplete="off">
                         </div>
                         
                         <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Message <span class="required" aria-label="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true" aria-describedby="message-help"></textarea>
+                            <div id="message-help" class="form-help">Please provide details about your inquiry or collaboration opportunity.</div>
                         </div>
                         
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary" aria-label="Submit contact form">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -402,18 +534,18 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Celes Chai. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#work">Work</a>
-                    <a href="#research">Research</a>
-                    <a href="#resume">Resume</a>
-                    <a href="#contact">Contact</a>
-                </div>
+                <p>&copy; <time datetime="2024">2024</time> Celes Chai. All rights reserved.</p>
+                <nav class="footer-links" role="navigation" aria-label="Footer navigation">
+                    <a href="#home" aria-label="Go to homepage">Home</a>
+                    <a href="#about" aria-label="Go to about section">About</a>
+                    <a href="#work" aria-label="Go to work section">Work</a>
+                    <a href="#research" aria-label="Go to research section">Research</a>
+                    <a href="#resume" aria-label="Go to resume section">Resume</a>
+                    <a href="#contact" aria-label="Go to contact section">Contact</a>
+                </nav>
             </div>
         </div>
     </footer>
