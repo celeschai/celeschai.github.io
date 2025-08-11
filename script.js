@@ -342,5 +342,5 @@ window.addEventListener('scroll', throttle(() => {
 }, 16)); // ~60fps
 
 // Console welcome message
-console.log('%c👋 Welcome to Celes Chai\'s website!', 'color: #667eea; font-size: 20px; font-weight: bold;');
+console.log('%c👋 Welcome to Celes Chai\'s website!', 'color: #5bf5f5; font-size: 20px; font-weight: bold;');
 console.log('%cFeel free to explore the code and get in touch!', 'color: #4a5568; font-size: 14px;');

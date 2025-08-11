@@ -54,7 +54,7 @@ p {
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #5bf5f5, #00d4d4);
     border-radius: 2px;
 }
 
@@ -85,7 +85,7 @@ p {
     font-weight: 700;
     color: #2d3748;
     text-decoration: none;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #5bf5f5, #00d4d4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -106,7 +106,7 @@ p {
 }
 
 .nav-link:hover {
-    color: #667eea;
+    color: #5bf5f5;
 }
 
 .nav-link::after {
@@ -116,7 +116,7 @@ p {
     left: 0;
     width: 0;
     height: 2px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #5bf5f5, #00d4d4);
     transition: width 0.3s ease;
 }
 
@@ -141,7 +141,7 @@ p {
 /* Hero Section */
 .hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5bf5f5 0%, #00d4d4 100%);
     color: white;
     min-height: 100vh;
     display: flex;
@@ -199,13 +199,13 @@ p {
 
 .btn-primary {
     background: white;
-    color: #667eea;
+    color: #5bf5f5;
 }
 
 .btn-primary:hover {
     background: #f7fafc;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 25px rgba(91, 245, 245, 0.3);
 }
 
 .btn-secondary {
@@ -216,7 +216,7 @@ p {
 
 .btn-secondary:hover {
     background: white;
-    color: #667eea;
+    color: #5bf5f5;
     transform: translateY(-2px);
 }
 
@@ -274,7 +274,7 @@ p {
 }
 
 .skill-tag {
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #5bf5f5, #00d4d4);
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
@@ -303,7 +303,7 @@ p {
 
 .stat-item h3 {
     font-size: 2.5rem;
-    color: #667eea;
+    color: #5bf5f5;
     margin-bottom: 0.5rem;
 }
 
@@ -340,7 +340,7 @@ p {
 
 .work-image {
     height: 200px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5bf5f5 0%, #00d4d4 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,14 +382,14 @@ p {
 }
 
 .work-link {
-    color: #667eea;
+    color: #5bf5f5;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .work-link:hover {
-    color: #764ba2;
+    color: #00d4d4;
 }
 
 /* Research Section */
@@ -421,7 +421,7 @@ p {
 }
 
 .research-year {
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #5bf5f5, #00d4d4);
     color: white;
     padding: 1rem;
     border-radius: 8px;
@@ -437,7 +437,7 @@ p {
 }
 
 .research-authors {
-    color: #667eea;
+    color: #5bf5f5;
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -454,7 +454,7 @@ p {
 }
 
 .research-link {
-    color: #667eea;
+    color: #5bf5f5;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -464,7 +464,7 @@ p {
 }
 
 .research-link:hover {
-    color: #764ba2;
+    color: #00d4d4;
 }
 
 /* Resume Section */
@@ -509,7 +509,7 @@ p {
 }
 
 .timeline-date {
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #5bf5f5, #00d4d4);
     color: white;
     padding: 0.75rem 1rem;
     border-radius: 8px;
@@ -524,7 +524,7 @@ p {
     background: #f7fafc;
     padding: 2rem;
     border-radius: 12px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #5bf5f5;
 }
 
 .timeline-content h4 {
@@ -551,7 +551,7 @@ p {
     background: #f7fafc;
     padding: 2rem;
     border-radius: 12px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #5bf5f5;
 }
 
 .education-item h4 {
@@ -560,7 +560,7 @@ p {
 }
 
 .education-school {
-    color: #667eea;
+    color: #5bf5f5;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
@@ -637,7 +637,7 @@ p {
 
 .contact-method i {
     font-size: 1.5rem;
-    color: #667eea;
+    color: #5bf5f5;
     width: 40px;
     text-align: center;
 }
@@ -684,7 +684,7 @@ p {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #5bf5f5;
 }
 
 .form-group textarea {
@@ -858,12 +858,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #5bf5f5, #00d4d4);
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(90deg, #5a67d8, #6b46c1);
+    background: linear-gradient(90deg, #00d4d4, #5bf5f5);
 }
 
 /* Accessibility and AI-friendly enhancements */
@@ -896,7 +896,7 @@ a:focus,
 button:focus,
 input:focus,
 textarea:focus {
-    outline: 2px solid #667eea;
+    outline: 2px solid #5bf5f5;
     outline-offset: 2px;
 }
 
@@ -905,7 +905,7 @@ textarea:focus {
     position: absolute;
     top: -40px;
     left: 6px;
-    background: #667eea;
+    background: #5bf5f5;
     color: white;
     padding: 8px;
     text-decoration: none;
