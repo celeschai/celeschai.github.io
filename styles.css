@@ -44,10 +44,17 @@ header {
 
 .name-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 20px;
     margin-bottom: 10px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 
 .profile-pic-container {
@@ -55,7 +62,7 @@ header {
     width: 80px;
     height: 80px;
     flex-shrink: 0;
-    order: 2; /* Move to right side */
+    margin-top: 5px;
 }
 
 .profile-pic {
@@ -88,7 +95,6 @@ h1 {
     font-weight: 700;
     letter-spacing: 1px;
     margin: 0;
-    order: 1; /* Keep name on left */
 }
 
 .contact-info {
