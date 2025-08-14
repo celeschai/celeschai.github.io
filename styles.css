@@ -414,6 +414,13 @@ footer {
     background: transparent;
 }
 
+/* Large bottom spacing for full screen height */
+.large-bottom-spacing {
+    height: 100vh;
+    margin-top: 30px;
+    background: transparent;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .main-layout {
