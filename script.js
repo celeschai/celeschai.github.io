@@ -75,39 +75,28 @@ function initializeSmoothScroll() {
 
 /**
  * Initialize video placeholder
- * Replace this with your actual video when ready
+ * Now configured to load your VisibleBits.mov video
  */
 function initializeVideoPlaceholder() {
     const videoContainer = document.getElementById('visiblebits-video');
     
-    // Example of how to add video when ready:
-    // Uncomment and modify the following code when you have your video URL
-    
-    /*
     if (videoContainer) {
-        const videoURL = 'YOUR_VIDEO_URL_HERE'; // Replace with actual URL
-        
-        // For YouTube embed
+        // Load your VisibleBits.mov video
         videoContainer.innerHTML = `
-            <iframe 
-                width="100%" 
-                height="400" 
-                src="${videoURL}" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-        `;
-        
-        // For direct video file
-        videoContainer.innerHTML = `
-            <video width="100%" height="400" controls>
-                <source src="${videoURL}" type="video/mp4">
+            <video width="100%" height="auto" controls preload="metadata">
+                <source src="VisibleBits.mov" type="video/quicktime">
+                <source src="VisibleBits.mov" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         `;
+        
+        // Add some styling to make the video look better
+        const video = videoContainer.querySelector('video');
+        if (video) {
+            video.style.borderRadius = '4px';
+            video.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
+        }
     }
-    */
 }
 
 /**
