@@ -337,18 +337,19 @@ li {
 .skills-list li {
     margin-bottom: 8px;
     text-align: left;
-    padding-left: 0;
-    position: relative;
+    display: flex;
+    align-items: flex-start;
 }
 
 .skills-list strong {
     font-weight: 600;
-    display: inline;
-    margin-right: 5px;
+    flex-shrink: 0;
+    min-width: 200px;
+    margin-right: 10px;
 }
 
 .skills-list li > span {
-    display: inline;
+    flex: 1;
 }
 
 /* Project with video layout */
@@ -453,6 +454,17 @@ footer {
     .entry-subheader .location {
         margin-left: 0;
         margin-top: 2px;
+    }
+    
+    .skills-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .skills-list strong {
+        min-width: auto;
+        margin-right: 0;
+        margin-bottom: 3px;
     }
     
     .project-with-video {
