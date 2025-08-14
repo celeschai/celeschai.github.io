@@ -190,14 +190,21 @@ li {
 }
 
 .skills-list li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     text-align: left;
+    display: flex;
+    align-items: flex-start;
 }
 
 .skills-list strong {
     font-weight: 600;
-    display: inline-block;
-    min-width: 180px;
+    flex-shrink: 0;
+    min-width: 200px;
+    margin-right: 10px;
+}
+
+.skills-list li > span {
+    flex: 1;
 }
 
 /* Links */
@@ -261,10 +268,15 @@ footer {
         margin-top: 2px;
     }
     
+    .skills-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
     .skills-list strong {
         min-width: auto;
-        display: block;
-        margin-bottom: 2px;
+        margin-right: 0;
+        margin-bottom: 3px;
     }
 }
 
