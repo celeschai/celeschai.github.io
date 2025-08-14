@@ -1,55 +1,187 @@
-# Jekyll configuration for GitHub Pages
-# This file helps GitHub Pages understand your site structure
+# Jekyll Configuration for GitHub Pages
+# Site Settings
+title: Celes Chai Jia Xuan
+description: Computer Science student at NUS specializing in embedded systems, full-stack development, and AI/ML. Founding Engineer at SakuraSpeak, Student Researcher at WEISER Lab.
+author: Celes Chai Jia Xuan
+email: celes.chai@u.nus.edu
+url: "https://celeschai.github.io" # your GitHub Pages URL
+baseurl: "" # leave empty if this is your user page (username.github.io)
 
-# Site settings
-title: Celes Chai
-description: Personal website showcasing work, research, and professional experience
-author: Celes Chai
-email: celes.chai@example.com
+# Social Media
+github_username: celeschai
+linkedin_username: celes-chai-473b54215
+twitter_username: # add if you have one
 
-# Build settings
+# SEO and Analytics
+google_analytics: # Add your Google Analytics tracking ID if you have one
+google_site_verification: # Add your Google site verification code
+
+# Build Settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:collection/:title/
-
-# Plugins (GitHub Pages compatible)
+theme: null # We're using custom HTML/CSS, not a Jekyll theme
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
 
-# Exclude from processing
+# Exclude files from build
 exclude:
   - README.md
-  - _config.yml
-  - .gitignore
+  - Gemfile
+  - Gemfile.lock
   - node_modules
-  - package.json
-  - package-lock.json
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - LICENSE
+  - CNAME
+  - "*.log"
+  - "*.tmp"
+  - .git
+  - .gitignore
 
-# Include files
+# Include specific files (if needed)
 include:
-  - _includes
-  - _layouts
-  - _sass
-  - assets
+  - robots.txt
+  - sitemap.xml
+  - .htaccess
+
+# Timezone
+timezone: Asia/Singapore
+
+# Encoding
+encoding: utf-8
+
+# Collections (if you plan to add blog posts or projects later)
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
 
 # Defaults
 defaults:
   - scope:
       path: ""
+      type: "pages"
+    values:
+      layout: null # Using custom HTML
+  - scope:
+      path: ""
       type: "posts"
     values:
-      layout: "post"
-      author: "Celes Chai"
+      layout: null
+      author: "Celes Chai Jia Xuan"
 
-# Sitemap settings
-sitemap:
-  exclude:
-    - /404.html
-    - /robots.txt
+# Pagination (if you add a blog later)
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Compression
+sass:
+  style: compressed
+
+# Performance and SEO
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Additional SEO Tags
+lang: en_US
+logo: /profile.jpg
+social:
+  name: Celes Chai Jia Xuan
+  links:
+    - https://github.com/celeschai
+    - https://www.linkedin.com/in/celes-chai-473b54215/
+
+# Open Graph defaults
+og_image: /profile.jpg
+
+# Repository (if your site is in a project repository)
+# repository: celeschai/celeschai.github.io
+
+# GitHub Pages
+github: [metadata]
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+
+# HTML Compression
+# compress_html:
+#   clippings: all
+#   comments: ["<!-- ", " -->"]
+#   endings: all
+#   ignore:
+#     envs: [development]
+
+# Site verification codes (add these when you have them)
+webmaster_verifications:
+  google: # Google Search Console verification
+  bing: # Bing Webmaster verification
+  alexa: # Alexa verification
+  yandex: # Yandex verification
+  baidu: # Baidu verification
+
+# Custom variables you can use in your HTML
+current_year: 2025
+location: Singapore
+university: National University of Singapore
+gpa: "4.55/5.00"
+
+# Contact Information
+contact:
+  phone: "+65 91905568"
+  email_primary: "celes.chai@u.nus.edu"
+  email_secondary: "celes.chai@gmail.com"
+  linkedin: "https://www.linkedin.com/in/celes-chai-473b54215/"
+  github: "https://github.com/celeschai"
+
+# Skills (for potential future use in templates)
+skills:
+  languages:
+    - Python
+    - Java
+    - C++
+    - JavaScript
+    - TypeScript
+    - Go
+  web:
+    - React.js
+    - Next.js
+    - Express.js
+    - RESTful APIs
+    - HTML
+    - CSS (Tailwind)
+  database:
+    - SQL
+    - MongoDB
+    - PostgreSQL
+    - DynamoDB
+  cloud:
+    - AWS (EC2, Lambda)
+    - Azure Speech Service
+    - Docker
+  embedded:
+    - Microcontrollers
+    - Firmware Development
+    - PCB Design
+    - Logic Analyzers
+  other:
+    - LaTeX
+    - Git/GitHub
+    - Spring
+    - PowerShell
+    - VBA
