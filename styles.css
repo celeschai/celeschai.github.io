@@ -603,8 +603,22 @@ footer {
     /* Mobile optimization for download button */
     @media (max-width: 768px) {
         .download-btn {
-            padding: 10px 20px;
-            font-size: 14px;
+            background: transparent;
+            color: var(--accent);
+            padding: 0;
+            border: none;
+            text-decoration: underline;
+            font-weight: normal;
+            border-radius: 0;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .download-btn:hover {
+            background: transparent;
+            color: var(--primary);
+            transform: none;
+            box-shadow: none;
         }
     }
 }
