@@ -429,25 +429,20 @@ footer {
 
 .download-btn {
     display: inline-block;
-    background: var(--primary);
-    color: var(--bg);
-    padding: 12px 24px;
+    background: #f5f5f5;
+    color: var(--accent);
+    padding: 8px 16px;
     text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    border: 2px solid var(--primary);
+    border-radius: 4px;
+    font-weight: normal;
+    transition: background-color 0.2s ease;
+    border: none;
 }
 
 .download-btn:hover {
-    background: var(--bg);
+    background: #e8e8e8;
     color: var(--primary);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.download-btn:active {
-    transform: translateY(0);
+    text-decoration: underline;
 }
 
 /* Responsive Design */
@@ -600,25 +595,5 @@ footer {
         text-decoration: none;
     }
 
-    /* Mobile optimization for download button */
-    @media (max-width: 768px) {
-        .download-btn {
-            background: transparent;
-            color: var(--accent);
-            padding: 0;
-            border: none;
-            text-decoration: underline;
-            font-weight: normal;
-            border-radius: 0;
-            transform: none;
-            box-shadow: none;
-        }
-        
-        .download-btn:hover {
-            background: transparent;
-            color: var(--primary);
-            transform: none;
-            box-shadow: none;
-        }
-    }
+
 }
